@@ -8,5 +8,7 @@
 
     <color name="editTextColorWhite">#FFFFFF</color>
     <color name="editTextColorBlack">#000000</color>
+    <color name="backgroundtext_card">#53292929</color>
+
 
 </resources>

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.ivaangb.cucgram.view.ContainerActivity;
 import com.ivaangb.cucgram.view.CreateAccountActivity;
 
 public class PrincipalLogin extends AppCompatActivity {
@@ -13,6 +14,11 @@ public class PrincipalLogin extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_principal_login);
+    }
+
+    public void goAccount(View view){
+        Intent intent = new Intent(this, ContainerActivity.class);
+        startActivity(intent);
     }
 
     public void goCreateAccount(View view){

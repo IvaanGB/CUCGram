@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/search"
+        tittle="@string/tab_search"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_action_search"
+        />
+
+    <tab
+        id="@+id/home"
+        tittle="@string/tab_home"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_action_home"
+        />
+
+    <tab
+        id="@+id/profile"
+        tittle="@string/tab_profile"
+        barColorWhenSelected="@color/colorPrimary"
+        icon="@drawable/ic_action_profile"
+        />
+
+</tabs>

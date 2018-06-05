@@ -4,5 +4,13 @@
     <dimen name="padding_horizontal_login">32dp</dimen>
     <dimen name="txtSize_dont_have_account">16sp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="editTextMarginCreateAccount">10dp</dimen>
+    <dimen name="heigh_cardview">200dp</dimen>
+    <dimen name="cornerRadius">4dp</dimen>
+    <dimen name="textsizeUsernameCard">25sp</dimen>
+    <dimen name="firstword_textcard">15sp</dimen>
+    <dimen name="timecard_marginleft_card">5dp</dimen>
+    <dimen name="like_margintop_card">10dp</dimen>
+    <dimen name="bottombar_height">70dp</dimen>
 </resources>

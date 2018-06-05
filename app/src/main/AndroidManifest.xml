@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.ivaangb.cucgram">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,14 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.CreateAccountActivity"
-            android:parentActivityName=".PrincipalLogin"
-            >
-        </activity>
+        <activity
+            android:name=".view.CreateAccountActivity"
+            android:parentActivityName=".PrincipalLogin" />
         <activity
             android:name=".ReferenciaActivity"
             android:label="@string/title_activity_referencia"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".view.ContainerActivity" />
+        <activity android:name=".view.PictureDetailActivity"></activity>
     </application>
 
 </manifest>

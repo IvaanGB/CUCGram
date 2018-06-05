@@ -78,8 +78,9 @@
                     android:id="@+id/btnLogin"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="goAccount"
                     android:text="@string/btnLogin"
-                    android:theme="@style/RaisedButtonDark"/>
+                    android:theme="@style/RaisedButtonDark" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
