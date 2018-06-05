@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ivaangb.cucgram.PrincipalLogin"
+    tools:context="com.ivaangb.cucgram.login.view.PrincipalLogin"
     android:background="@color/colorPrimary">
 
     <LinearLayout
@@ -111,6 +111,11 @@
                         android:textStyle="bold"
                         android:onClick="goCreateAccount"
                         />
+
+                    <ProgressBar
+                        android:id="@+id/progressBarLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
 
                 </RelativeLayout>
 

@@ -34,4 +34,10 @@
     <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
     <string name="transitionName_Picture">transitionnamepicture</string>
     <string name="hint_search">Buscar</string>
+    <string name="errorUsername">Ingrese un Usuario</string>
+    <string name="errorPassword">Ingrese una Contraseña</string>
+    <string name="errorLogin">Ocurrió un Error</string>
+    <string name="hint_tittle">Título</string>
+    <string name="hint_description">Descripción</string>
+    <string name="txt_CreatePost">Crear Post</string>
 </resources>

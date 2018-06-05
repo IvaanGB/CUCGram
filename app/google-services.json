@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "674808623843",
+    "firebase_url": "https://cucgram.firebaseio.com",
+    "project_id": "cucgram",
+    "storage_bucket": "cucgram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674808623843:android:1d9c26288b56b998",
+        "android_client_info": {
+          "package_name": "com.ivaangb.cucgram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674808623843-aq3bu1n7tsobovmspcna7su7u30l4cet.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ivaangb.cucgram",
+            "certificate_hash": "fc7bd6b5a7370f274517a13e3b0970f022cdc4c4"
+          }
+        },
+        {
+          "client_id": "674808623843-lgg420pj33vlq3ouet0h29t5kga1fdj7.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "674808623843-lgg420pj33vlq3ouet0h29t5kga1fdj7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8mnYZ49Pu1soYydBOODuDuCOIzEhRWv0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674808623843-lgg420pj33vlq3ouet0h29t5kga1fdj7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

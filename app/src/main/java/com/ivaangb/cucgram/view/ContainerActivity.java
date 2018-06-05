@@ -6,11 +6,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.ivaangb.cucgram.R;
-import com.ivaangb.cucgram.view.fragment.HomeFragment;
+import com.ivaangb.cucgram.post.view.HomeFragment;
 import com.ivaangb.cucgram.view.fragment.ProfileFragment;
 import com.ivaangb.cucgram.view.fragment.SearchFragment;
 import com.roughike.bottombar.BottomBar;
-import com.roughike.bottombar.OnTabReselectListener;
 import com.roughike.bottombar.OnTabSelectListener;
 
 public class ContainerActivity extends AppCompatActivity {
