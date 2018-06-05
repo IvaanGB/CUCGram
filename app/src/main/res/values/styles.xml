@@ -35,5 +35,7 @@
         <item name="android:colorControlNormal">@color/editTextColorBlack</item>
         <item name="android:colorControlActivated">@color/editTextColorBlack</item>
     </style>
+    
+
 
 </resources>

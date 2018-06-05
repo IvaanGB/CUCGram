@@ -17,6 +17,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
+        <meta-data android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"/>
         
         <provider
             android:authorities="com.ivaangb.cucgram"
@@ -39,7 +42,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.CreateAccountActivity"
+            android:name=".login.view.CreateAccountActivity"
             android:parentActivityName=".login.view.PrincipalLogin" />
         <activity android:name=".view.ContainerActivity" />
         <activity

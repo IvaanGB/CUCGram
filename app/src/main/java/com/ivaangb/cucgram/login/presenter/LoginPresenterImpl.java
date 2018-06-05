@@ -1,7 +1,10 @@
 package com.ivaangb.cucgram.login.presenter;
 
+import android.app.Activity;
 import android.view.View;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.ivaangb.cucgram.R;
 import com.ivaangb.cucgram.login.interactor.LoginInteractor;
 import com.ivaangb.cucgram.login.interactor.LoginInteractorImpl;
@@ -22,12 +25,13 @@ public class LoginPresenterImpl implements LoginPresenter {
     }
 
     @Override
-    public void signIn(String username, String password) {
+    public void signIn(String username, String password, Activity activity, FirebaseAuth firebaseAuth) {
         loginView.disbaleInputs();
         loginView.showProgressBar();
 
-        interactor.sigIn(username, password);
+        interactor.sigIn(username, password, activity, firebaseAuth);
     }
+
 
     @Override
     public void loginSuccess() {
