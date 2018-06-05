@@ -46,7 +46,7 @@
             android:parentActivityName=".login.view.PrincipalLogin" />
         <activity android:name=".view.ContainerActivity" />
         <activity
-            android:name=".view.PictureDetailActivity"
+            android:name=".post.view.PictureDetailActivity"
             android:parentActivityName=".view.ContainerActivity"></activity>
         <activity android:name=".post.view.NewPostActivity"></activity>
     </application>

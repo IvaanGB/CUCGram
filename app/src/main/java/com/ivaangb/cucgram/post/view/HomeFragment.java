@@ -21,6 +21,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v7.widget.Toolbar;
+
+import com.google.firebase.crash.FirebaseCrash;
+import com.google.firebase.storage.FirebaseStorage;
 import com.ivaangb.cucgram.R;
 import com.ivaangb.cucgram.adapter.PictureAdapterRecyclerView;
 import com.ivaangb.cucgram.model.Picture;
@@ -83,22 +86,16 @@ public class HomeFragment extends Fragment {
         if (intentTakePicture.resolveActivity(getActivity().getPackageManager()) != null){
 
             File photoFile = null;
-
             try {
                 photoFile = createImageFile();
-
-
             }catch (Exception e){
                 e.printStackTrace();
+                FirebaseCrash.report(e);
             }
 
             if (photoFile != null ){
-
-
                 Uri photoUri = FileProvider.getUriForFile(getActivity(), PackageName, photoFile);
-
                 intentTakePicture.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
-
                 startActivityForResult(intentTakePicture, REQUEST_CAMERA);
             }
 

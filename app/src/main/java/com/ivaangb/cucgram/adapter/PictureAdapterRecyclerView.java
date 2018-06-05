@@ -14,7 +14,7 @@ import android.widget.TextView;
 
 import com.ivaangb.cucgram.R;
 import com.ivaangb.cucgram.model.Picture;
-import com.ivaangb.cucgram.view.PictureDetailActivity;
+import com.ivaangb.cucgram.post.view.PictureDetailActivity;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;

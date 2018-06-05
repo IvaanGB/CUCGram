@@ -28,6 +28,7 @@ import com.google.firebase.auth.FacebookAuthCredential;
 import com.google.firebase.auth.FacebookAuthProvider;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.crash.FirebaseCrash;
 import com.ivaangb.cucgram.R;
 import com.ivaangb.cucgram.login.presenter.LoginPresenter;
 import com.ivaangb.cucgram.login.presenter.LoginPresenterImpl;
@@ -110,8 +111,9 @@ public class PrincipalLogin extends AppCompatActivity implements LoginView {
 
             @Override
             public void onError(FacebookException error) {
-                Log.w(TAG, "Facebook login cancelado" + error.toString());
                 error.printStackTrace();
+                FirebaseCrash.report(error);
+
             }
         });
 

@@ -7,6 +7,7 @@ import android.util.Log;
 import com.facebook.FacebookSdk;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.crash.FirebaseCrash;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
@@ -25,6 +26,7 @@ public class CucGramApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+        FirebaseCrash.log("Inicializando variables en CUCGramApplication");
 
         FacebookSdk.sdkInitialize(getApplicationContext());
 
