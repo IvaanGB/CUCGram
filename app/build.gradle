@@ -31,4 +31,8 @@ dependencies {
     compile 'com.roughike:bottom-bar:2.3.1'
     compile 'com.android.support:recyclerview-v7:26.+'
     implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    compile 'com.zoonref:simple-view-behavior:1.0'
+
+
 }

@@ -3,10 +3,11 @@
     xmlns:cardview="http://schemas.android.com/apk/res-auto"
     android:id="@+id/picCard"
     android:layout_width="match_parent"
-
     android:layout_height="@dimen/heigh_cardview"
     cardview:cardCornerRadius="@dimen/cornerRadius"
-    android:layout_marginBottom="@dimen/activity_vertical_margin">
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:fitsSystemWindows="true"
+    >
 
 
     <FrameLayout
@@ -18,7 +19,9 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/heigh_cardview"
             android:background="@drawable/image"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            android:transitionName="@string/transitionName_Picture"
+            />
 
         <LinearLayout
             android:layout_width="match_parent"
